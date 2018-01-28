@@ -1,0 +1,27 @@
+[extra]
+published_dir = "./published"
+template_dir = "./template"
+auth_token = "PASSWORD"
+
+[static_pages]
+
+[extra.allowed_exts]
+# Favicon.
+ico = "image/x-icon"
+
+# Images.
+bmp = "image/bmp"
+gif = "image/gif"
+jpg = "image/jpeg"
+jpeg = "image/jpeg"
+png = "image/png"
+
+# Web pages.
+css = "text/css"
+js = "application/javascript"
+htm = "application/html"
+html = "application/html"
+xhtml = "application/xhtml"
+
+# Miscellaneous
+pdf = "application/pdf"
