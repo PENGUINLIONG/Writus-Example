@@ -1,4 +1,7 @@
-<h1><a href="<?var link?>"><?var title?></a></h1>
-<div class="hline"></div>    
-<?var content?>
-<?frag fragments/post-info.html?>
+<div id="content" class="content">
+    <script>ids.push("<?var id?>")</script>
+    <h1><a href="<?var link?>"><?var title?></a></h1>
+    <div class="hline"></div>
+    <?var content?>
+    <?frag fragments/post-info.html?>
+</div>
