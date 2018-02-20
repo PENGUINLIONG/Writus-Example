@@ -30,7 +30,7 @@ $Path | ForEach-Object {
         $Metadata = '{"author":"PENGUINLIONG","published":"' +
             (Get-Date).ToString("o") +
             '"}';
-        [System.IO.File]::WriteAllLines($FilePath, $Metadata);
+        [System.IO.File]::WriteAllLines($MetadataPath, $Metadata);
     }
     Publish-File.ps1 -Uri "$BaseUri/metadata/$Path" -InFile $MetadataPath
     # Upload all the resources.
